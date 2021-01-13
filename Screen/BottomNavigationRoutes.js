@@ -130,7 +130,7 @@ const BottomNavigationRoutes = (props) => {
             tabBarLabel: 'ContactUs',
             tabBarIcon: ({color, size}) => (
               <MaterialCommunityIcons
-                name="contact-support"
+                name="settings"
                 color={color}
                 size={size}
               />

@@ -6,6 +6,7 @@ import 'react-native-gesture-handler';
 import * as React from 'react';
 
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -119,7 +120,7 @@ const BottomNavigationRoutes = (props) => {
           options={{
             tabBarLabel: 'Home',
             tabBarIcon: ({color, size}) => (
-              <MaterialCommunityIcons name="home" color={color} size={size} />
+              <FontAwesomeIcon name="home" color={color} size={size} />
             ),
           }}
         />
@@ -129,11 +130,7 @@ const BottomNavigationRoutes = (props) => {
           options={{
             tabBarLabel: 'ContactUs',
             tabBarIcon: ({color, size}) => (
-              <MaterialCommunityIcons
-                name="settings"
-                color={color}
-                size={size}
-              />
+              <FontAwesomeIcon name="map-marker" color={color} size={size} />
             ),
           }}
         />
@@ -143,11 +140,7 @@ const BottomNavigationRoutes = (props) => {
           options={{
             tabBarLabel: 'Settings',
             tabBarIcon: ({color, size}) => (
-              <MaterialCommunityIcons
-                name="settings"
-                color={color}
-                size={size}
-              />
+              <FontAwesomeIcon name="cog" color={color} size={size} />
             ),
           }}
         />

@@ -23,11 +23,11 @@ const HomeScreen = () => {
                 borderRadius: Math.round(Dimensions.get('window').width + Dimensions.get('window').height) / 4,
                 width: (Dimensions.get('window').width * 0.5)-30,
                 height: (Dimensions.get('window').width * 0.5)-30,
-                backgroundColor: '#f00',
+                backgroundColor: '#e0e0e0',
                 justifyContent: 'center',
                 alignItems: 'center',
               }}
-              underlayColor='#ccc'
+              underlayColor='#f00'
               onPress={() => alert('Profile')}
             >
               <Text> Profile </Text>
@@ -37,12 +37,12 @@ const HomeScreen = () => {
                 borderRadius: Math.round(Dimensions.get('window').width + Dimensions.get('window').height) / 4,
                 width: (Dimensions.get('window').width * 0.5)-30,
                 height: (Dimensions.get('window').width * 0.5)-30,
-                backgroundColor: '#f00',
+                backgroundColor: '#e0e0e0',
                 justifyContent: 'center',
                 alignItems: 'center',
                 padding: 20
               }}
-              underlayColor='#ccc'
+              underlayColor='#f00'
               onPress={() => alert('My Account')}
             >
               <Text> My Account </Text>
@@ -54,12 +54,12 @@ const HomeScreen = () => {
                 borderRadius: Math.round(Dimensions.get('window').width + Dimensions.get('window').height) / 4,
                 width: (Dimensions.get('window').width * 0.5)-30,
                 height: (Dimensions.get('window').width * 0.5)-30,
-                backgroundColor: '#f00',
+                backgroundColor: '#e0e0e0',
                 justifyContent: 'center',
                 alignItems: 'center',
                 padding:20
               }}
-              underlayColor='#ccc'
+              underlayColor='#f00'
               onPress={() => alert('My Orders')}
             >
               <Text> My Orders </Text>
@@ -69,12 +69,12 @@ const HomeScreen = () => {
                 borderRadius: Math.round(Dimensions.get('window').width + Dimensions.get('window').height) / 4,
                 width: (Dimensions.get('window').width * 0.5)-30,
                 height: (Dimensions.get('window').width * 0.5)-30,
-                backgroundColor: '#f00',
+                backgroundColor: '#e0e0e0',
                 justifyContent: 'center',
                 alignItems: 'center',
                 padding:20
               }}
-              underlayColor='#ccc'
+              underlayColor='#f00'
               onPress={() => alert('My Cart')}
             >
               <Text> My Cart </Text>

@@ -160,11 +160,8 @@ const ContactUs = () => {
             Latitude: {currentLatitude}
           </Text>
           <View style={{marginTop: 20}}>
-            <Button style={{
-              fontSize: 18,
-              textAlign: 'center',
-              color: '#e31837',
-            }}
+            <Button
+              color="#e31837"
               title="Get My Location"
               onPress={getOneTimeLocation}
             />
